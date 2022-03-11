@@ -1,0 +1,5 @@
+{
+  "artifact": "library",
+  "artifactName": "fwl-react-use-amplify-auth-state",
+  "cicd": "github-actions"
+}
