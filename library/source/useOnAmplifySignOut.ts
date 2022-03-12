@@ -1,3 +1,3 @@
 import createAmplifyAuthHook from './createAmplifyAuthHook';
 
-export default createAmplifyAuthHook('signUp');
+export default createAmplifyAuthHook('signOut');
