@@ -1,11 +1,6 @@
-import { Hub } from '@aws-amplify/core';
-import type { HubCallback } from '@aws-amplify/core';
-import useOnce from '@future-widget-lab/react-use-once';
-
-function useAmplifyAuthState(callback: HubCallback) {
-  useOnce(() => {
-    Hub.listen('auth', callback);
-  });
-}
-
-export default useAmplifyAuthState;
+export { default as useAmplifyAuthState } from './useAmplifyAuthState';
+export { default as useOnAmplifyConfigured } from './useOnAmplifyConfigured';
+export { default as useOnAmplifySignIn } from './useOnAmplifySignIn';
+export { default as useOnAmplifySignInFailure } from './useOnAmplifySignInFailure';
+export { default as useOnAmplifySignOut } from './useOnAmplifySignOut';
+export { default as useOnAmplifySignUp } from './useOnAmplifySignUp';
