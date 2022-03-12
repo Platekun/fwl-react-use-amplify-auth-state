@@ -1,6 +1,6 @@
 {
   "name": "@future-widget-lab/react-use-amplify-auth-state",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "scripts": {
